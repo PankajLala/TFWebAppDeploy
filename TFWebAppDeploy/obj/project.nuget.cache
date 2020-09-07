@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N031Iao/MRXKau7wFX1CVlvh22SbYGdxPokjbsy7Rlig0ZF8hXdfkZO3ESFuK44nqYi0XsFdox5CcXcKpz6Cag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\panka01l\\source\\repos\\TFWebAppDeploy\\TFWebAppDeploy\\TFWebAppDeploy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\panka01l\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
