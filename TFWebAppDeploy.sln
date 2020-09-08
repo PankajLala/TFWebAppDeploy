@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFWebAppDeploy", "TFWebAppDeploy\TFWebAppDeploy.csproj", "{FAB3EAA2-BB8A-462C-BE35-2C9CB29F43FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Terraform", "Terraform", "{50E0F088-ABF1-48F3-BA23-4FF71272A5E5}"
+	ProjectSection(SolutionItems) = preProject
+		webapp.tf = webapp.tf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
