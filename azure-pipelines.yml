@@ -33,14 +33,14 @@ steps:
       platform: "$(buildPlatform)"
       configuration: "$(buildConfiguration)"
 
-  - task: DotNetCoreCLI@2
-    inputs:
-      command: "publish"
-      publishWebProjects: true
+  #- task: DotNetCoreCLI@2
+  #  inputs:
+  #    command: "publish"
+  #    publishWebProjects: true
 
-  - task: CopyFiles@2
-    inputs:
-      targetFolder: "$(Build.ArtifactStagingDirectory)"
+  #- task: CopyFiles@2
+  #  inputs:
+  #    targetFolder: "$(Build.ArtifactStagingDirectory)"
 
   - task: PublishBuildArtifacts@1
     inputs:
